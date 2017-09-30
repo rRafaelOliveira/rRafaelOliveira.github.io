@@ -1,0 +1,106 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.linha{
+/* Grid 960px(lembre-se da forma de trabalhar com essa grid pois ela será dividida por 12 que terá o resultado de 80px e desse valor você tera
+que usar 10px para cada lateral de espaçamento) */
+	width: 960px;
+	margin: 0 auto; /*usado para centralizar a DIV*/
+	overflow: auto;
+	padding: 5px 0;
+}
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+	}
+a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.coluna{
+	padding: 0 10px; /*aqui você já começa a subtrair do 80px da grid de 960px. 10px para direita e 10 para esquerda */
+	float: left;
+}
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+	position: relative;
+	src: absolute;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+header nav ul{
+	list-style: none;
+	padding-left: 0;
+}
+header nav ul li/* "li" representa um item que faz parte de uma lista no caso de uma lista desordenada-> "ul" */ {
+	list-style: none;
+	display: inline-block;
+	margin-right: 15px; /*usado para dar espaçamento entre palavras em uma frase */
+	}
+header nav ul li a{
+	color: black;
+	}
+section nav ul {
+	list-style: none;
+	padding-left: 0;
+}
+section nav ul li{
+	list-style: none; 
+	}
+section nav ul li a{
+	color: black;
+	}
+	/* não funcionou chamar o elemento com ID copyright e depois tentar centralizar com atributo margin.
+#COPYRIGHT{
+clear: both;
+margin: 0 auto; 
+} */
+h3{
+	text-transform: capitalize;
+}
+.paragr1{
+text-indent: 10px;
+text-align: justify;	
+}
+footer{
+text-align:center;
+}
+h4{
+text-align: justify;
+}
+.areaDeTexto{
+	padding-left: 10px;
+	text-align: left;
+}
