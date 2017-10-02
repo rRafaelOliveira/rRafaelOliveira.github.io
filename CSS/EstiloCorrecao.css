@@ -1,5 +1,8 @@
+@font-face{
+	font-family: 'Source-Sans_Pro';
+	src:url("../Source-Sans_Pro/SourceSansPro-Regular.ttf");
+}
 body{
-	font-family: 'Roboto', sans-serif;
 	color: #696969;
 }
 a:link, a:active, a:visited{
@@ -20,7 +23,6 @@ que usar 10px para cada lateral de espaçamento) */
 .coluna{
 	padding: 0 10px; /*aqui você já começa a subtrair do 80px da grid de 960px. 10px para direita e 10 para esquerda */
 	float: left;
-}
 }
 .col1{
 	width: 60px;
